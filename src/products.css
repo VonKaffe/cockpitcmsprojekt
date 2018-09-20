@@ -1,0 +1,14 @@
+.col-sm-4 a {
+    color: white;
+}
+.productTitel a {
+    color: black;
+
+;
+}
+.productItem {
+    background-color: #EEEEEE;
+    margin: 20px 0px;
+    padding: 10px 0px 40px 40px;
+    border-radius: 10px;
+}
