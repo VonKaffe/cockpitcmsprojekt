@@ -20,7 +20,7 @@ class App extends Component {
     }
 
     componentDidMount() {
-        let myRequest = new Request('http://192.168.99.100:8888/collections/entries/products?q=account-e40f461fd0a7a62080326a8398b858');
+        let myRequest = new Request('http://192.168.99.100:8888/collections/entries/products?token=e40f461fd0a7a62080326a8398b858');
         let initialProducts = [];
         fetch(myRequest)
             .then(response => {
