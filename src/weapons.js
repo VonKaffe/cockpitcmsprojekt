@@ -43,7 +43,7 @@ class weapons extends React.Component{
 
 
     componentDidMount() {
-        let myRequest = new Request('http://192.168.99.100:8888/collections/entries/products?q=account-e40f461fd0a7a62080326a8398b858');
+        let myRequest = new Request('http://192.168.99.100:8888/collections/entries/products?q=e40f461fd0a7a62080326a8398b858');
         let initialProducts = [];
         fetch(myRequest)
             .then(response => {
@@ -62,7 +62,7 @@ class weapons extends React.Component{
     render () {
         let arrayToFilter = this.state.Products;
         let filterdArray = arrayToFilter.filter(function(product){
-            return product.category === "SKINS";
+            return product.category === "Skin2";
         });
 
         let products = filterdArray;

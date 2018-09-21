@@ -63,7 +63,7 @@ class vapen extends React.Component{
     render () {
         let arrayToFilter = this.state.Products;
         let filterdArray = arrayToFilter.filter(function(product){
-            return product.category === "Vapen";
+            return product.category === "Skin1";
         });
         let products = filterdArray;
         let productlist = products.map((product) =>

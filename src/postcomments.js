@@ -32,7 +32,7 @@ class PostComments extends React.Component{
     handleSubmit(event) {
 
 
-        fetch('http://192.168.99.100:8888   /api/collections/save/rating?token=e40f461fd0a7a62080326a8398b858', {
+            fetch('http://192.168.99.100:8888/api/collections/save/rating?token=e40f461fd0a7a62080326a8398b858', {
             method: 'post',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({

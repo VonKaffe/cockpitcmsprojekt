@@ -11,9 +11,9 @@ class Navbar extends React.Component{
                     </div>
                     <ul className="nav navbar-nav">
 
-                        <li><NavLink to="/vapen">Vapen</NavLink></li>
-                        <li><NavLink to="/bild">Bild</NavLink></li>
-                        <li><NavLink to="/weapons">Weapons</NavLink></li>
+                        <li><NavLink to="/vapen">Skin1</NavLink></li>
+                        <li><NavLink to="/bild">Skin2</NavLink></li>
+                        <li><NavLink to="/weapons">Skin3</NavLink></li>
 
 
 

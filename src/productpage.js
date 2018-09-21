@@ -24,7 +24,7 @@ class Productpage extends React.Component{
     }
     componentDidMount() {
         const id = this.props.match.params.id;
-        let myRequest = new Request('http://192.168.99.100:8888/api/collections/get/Products/?token=e40f461fd0a7a62080326a8398b858');
+        let myRequest = new Request('hhttp://192.168.99.100:8888/collections/entries/products?q=e40f461fd0a7a62080326a8398b858');
         let initialProducts = [];
         fetch(myRequest, {
             method: "post",
